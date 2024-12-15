@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.main-container {
+    width: 350px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-block: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.avatar-container {
+    width: 70px;
+    margin-inline: auto;
+    margin-block: 15px;
+}
+.avatar-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+.main-container h2 {
+    margin-block: 10px;
+}
+.main-container h3 {
+    color: hsl(75, 94%, 57%);
+    margin-block-end: 20px;
+}
+.main-container p {
+    margin-block: 15px;
+}
+.main-container a {
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.main-container a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
